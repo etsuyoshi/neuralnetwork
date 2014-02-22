@@ -106,7 +106,7 @@
     //test
     [nn forwardWithInput:arrMyInput[0]];
     for(int k = 0;k < [nn.arrOutput count];k++){
-        NSLog(@"pattern1:output%d is %f against:%f",
+        NSLog(@"pattern0:output%d is %f against:%f",
               k, [nn.arrOutput[k] doubleValue],
               [arrMySupervisor[0][k] doubleValue]);
     }
