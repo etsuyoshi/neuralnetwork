@@ -20,4 +20,7 @@
 -(id)initWithInput:(int)_numOfInput
         withHidden:(int)_numOfHidden
         withOutput:(int)_numOfOutput;
+
+-(BOOL)forwardWithInput:(NSMutableArray *)_arrInputValue;
+-(BOOL)backPropagation;
 @end
